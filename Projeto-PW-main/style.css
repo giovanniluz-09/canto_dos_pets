@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+}
+
+#body {
+    font-family: "Biryani", serif;
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EDEDED;
+    
+}
+
+header {
+    background-color: #147BF1;
+    color: white;
+    margin: 0;    
+}
+
+#logo {
+    width: 10rem;
+    height: 5rem;
+
+}
+
+.banner {
+    width: 40rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 2px 4px 4px #00000065;
+}
+
+#banner{
+    display: flex; 
+    gap: 2rem;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+}
+
+#pesquisa {
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    margin-bottom: 2rem;
+}
+
+#menu {
+    width: 2rem;
+    margin-bottom: 0.2rem;
+}
+nav {
+    font-family: "Biryani", serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 15pt;
+}
+
+#carrinho {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 13rem;
+}
+
+#conta {
+    width: 5%;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 9pt;
+
+}
+
+#lupa {
+   position: relative;
+   right: 1.7rem; 
+   width: 1.5rem;
+}
+
+#cadastrar {
+    font-family: "Biryani", serif;
+}
+
+#interativos {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 9pt;
+}
+
+.botoes {
+    border: solid none;
+    width: 14rem;
+    height: 3rem;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.icons {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.primeiro {
+    border-radius: 0px 100px 100px 100px;
+}
+
+.segundo {
+    border-radius: 100px 0px 100px 100px;
+}
+
+.bordaIcons {
+    width: 3.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.icones1 {
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.icones2 {
+    margin-top: 0.5rem;
+    margin-right: 0.8rem;
+}
+
+#bordaIcons1 {
+    background-color: #F02A2A;
+    position: relative;
+    right: 3.5rem;
+    border-radius: 0 100px 0 0;
+    justify-content: flex-start;
+}
+
+#bordaIcons2 {
+    background-color: #03D749;
+    position: relative;
+    right: 2rem;
+    border-radius: 0 100px 0 0;
+    justify-content: flex-start;
+}
+
+#bordaIcons3 {
+    background-color: #F6CF2F;
+    position: relative;
+    left: 2rem;
+    border-radius: 100px 0 0 0;
+    justify-content: flex-end;
+    
+}
+
+#bordaIcons4 {
+    background-color: #3D96FC;
+    position: relative;
+    left: 1.9rem;
+    border-radius: 100px 0 0 0;
+    justify-content: flex-end;
+}
+
+#cachorros {
+    background-color: #d9d9d9;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+#produtos {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#produtos2 {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.produtos {
+    width: 14rem;
+    height: 18rem;
+    border-radius: 10px;
+}
+
+#primeiroprodutodog {
+    margin-left: 3rem;
+}
+
+#ultimoprodutodog {
+    margin-right: 3rem;
+}
+
+.alinhamentositens {
+    display: flex;
+    justify-content: center;
+    max-width: 3rem;
+
+}
+
+.precos {
+    font-size: 9pt;
+    margin-bottom: 3rem;
+}
+
+#titulocachorro {
+    margin-left: 3rem;
+    font-family: "Biryani", serif;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#preco1 {
+    margin-top: 2.1rem;
+}
+
+#preco2 {
+    margin-top: 2.1rem;
+}
+
+#preco3 {
+    margin-top: 0rem;
+}
+
+#preco4 {
+    margin-top: 2.1rem;
+}
+
+#preco5 {
+    margin-top: 2.1rem;
+}
+
+#gatos {
+    padding-top: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#primeiroprodutogato {
+    margin-left: 3rem;
+}
+
+#ultimoprodutogato {
+    margin-right: 3rem;
+}
+
+.itens {
+    font-size: 9pt;
+    font-family: "Biryani", serif;
+    max-width: 14rem;
+}
+
+#titulogato {
+    margin-left: 3rem;
+    font-family: "Biryani", serif;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#preco6 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+#preco7 {
+    margin-top: 2rem;
+}
+
+#preco8 {
+    margin-top: 2rem;
+}
+
+#preco9 {
+    margin-top: 2rem;
+}
+
+#preco10 {
+    margin-top: 3.2rem;
+}
+
+#primeiroitemgato {
+    margin-left: 3rem;
+}
+
+.destaque {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+#destaque {
+    background-color: #d6d6d6;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.iconsdestaque {
+    border-radius: 20px 20px 0 20px;
+    background-color: white;
+    border: solid 3px;
+}
+
+.destaque1 {
+    width: 6.3rem;
+    height: 6.3rem;
+}
+
+.nomeitens {
+    font-size: 9pt;
+    font-family: 'Biryani', sans-serif;
+    position: relative;
+    top: 1.3rem;
+    right: 4.3rem;
+}
+
+#destaqueitens {
+    display: flex;
+    flex-direction: column;
+}
+
+#caminha {
+    position: relative;
+    right: 6.8rem;
+}
+
+#medicamentos {
+    position: relative;
+    right: 10.9rem;
+}
+
+#caminhaicon {
+    position: relative;
+    right: 2rem;
+}
+
+#medicamentoicon {
+    position: relative;
+    right: 5rem;
+}
+
+#caixa {
+    position: relative;
+    right: 2rem;
+}
+
+#caixadeareia {
+    position: relative;
+    right: 8rem;
+}
+
+#brinquedo {
+    position: relative;
+    right: 7.2rem;
+}
+
+#brinquedos {
+    position: relative;
+    right: 12.5rem;
+}
