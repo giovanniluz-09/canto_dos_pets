@@ -189,6 +189,19 @@ nav {
     justify-content: center;
 }
 
+.adicionar {
+    background-color: #FF3EDC;
+    border-radius: 1rem;
+    position: relative;
+    right: 2.7rem;
+    bottom: 0.5rem;
+    width: 1.8rem;
+}
+
+.ultimoadicionar {
+    right: 5.7rem;
+}
+
 #produtos {
     display: flex;
     gap: 1.5rem;
