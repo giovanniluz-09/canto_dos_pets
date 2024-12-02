@@ -5,6 +5,10 @@ quantidade.style.display = 'none';
 
 
 const lupa = document.querySelector('#lupa').addEventListener('click', () => {
+    if (pesquisa.value == '') {
+        alert('Nenhum valor inserido, tente novamente')
+    }
+    
     pesquisa.value = '';
 })
 
